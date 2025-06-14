@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mr JP Soft Sol | Attendance Portal</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/8830/8830780.png" type="image/png">
+</head>
+<body>
+  <div class="main-wrapper">
+    <header>
+      <div class="logo">
+        <img src="https://cdn-icons-png.flaticon.com/512/8830/8830780.png" alt="Company Logo" />
+        <h1>Mr JP Soft Sol</h1>
+      </div>
+      <h2>Internal Attendance System</h2>
+    </header>
+
+    <div class="card">
+      <form id="attendanceForm">
+        <label for="name">👤 Employee Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required />
+
+        <label for="dept">🏢 Department (optional)</label>
+        <input type="text" id="dept" name="dept" placeholder="e.g., HR, IT, Sales" />
+
+        <button type="submit">📝 Mark Attendance</button>
+      </form>
+
+      <div id="message"></div>
+    </div>
+
+    <footer>
+      &copy; 2025 Mr JP Soft Sol. All rights reserved. Internal Use Only.
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
